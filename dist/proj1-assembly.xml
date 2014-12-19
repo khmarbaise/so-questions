@@ -14,10 +14,19 @@ xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assemb
 
   <dependencySets>
       <dependencySet>
-          <outputDirectory>/</outputDirectory>
+        <outputDirectory>/${project.artifactId}</outputDirectory>
           <useProjectArtifact>false</useProjectArtifact>
-          <unpack>false</unpack>
+          <unpack>true</unpack>
           <scope>runtime</scope>
       </dependencySet>
-  </dependencySets>
+    </dependencySets>
+    <fileSets>
+      <fileSet>
+        <directory>src/main/scripts</directory>
+        <outputDirectory>/</outputDirectory>
+        <includes>
+          <include>*.sh</include>
+        </includes>
+      </fileSet>
+    </fileSets>
 </assembly>

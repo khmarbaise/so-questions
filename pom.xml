@@ -28,4 +28,17 @@
     <module>package-1</module>
     <module>package-web</module>
   </modules>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <version>2.5.2</version>
+      </plugin>
+    </plugins>
+    </pluginManagement>
+  </build>
+
 </project>
