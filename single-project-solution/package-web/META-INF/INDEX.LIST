@@ -1,0 +1,13 @@
+JarIndex-Version: 1.0
+
+package-web-1.0.0-SNAPSHOT.war
+META-INF
+WEB-INF
+WEB-INF/classes
+WEB-INF/classes/com
+WEB-INF/classes/com/soebes
+WEB-INF/classes/com/soebes/examples
+WEB-INF/classes/com/soebes/examples/j2ee
+WEB-INF/classes/com/soebes/examples/j2ee/gui
+WEB-INF/classes/com/soebes/examples/j2ee/gui/web
+
