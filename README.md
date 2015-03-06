@@ -8,3 +8,7 @@ This contains two solutions.
 
 * Multi Module solution
 * Single Project solution
+
+http://stackoverflow.com/questions/28895644/maven-antrun-plugin-include-root-folder-on-tar
+
+* folder
