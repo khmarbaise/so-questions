@@ -15,9 +15,9 @@
   <packaging>pom</packaging>
 
   <scm>
-    <developerConnection>scm:git:git@github.com:khmarbaise/javaee.git</developerConnection>
-    <connection>scm:git:git://github.com/khmarbaise/javaee.git</connection>
-    <url>https://github.com/khmarbaise/javaee</url>
+    <developerConnection>scm:git:git@github.com:khmarbaise/so-questions.git</developerConnection>
+    <connection>scm:git:git://github.com/khmarbaise/so-questions.git</connection>
+    <url>https://github.com/khmarbaise/so-questions</url>
     <tag>HEAD</tag>
   </scm>
 
