@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.soebes.smpp</groupId>
+    <artifactId>smpp</artifactId>
+    <version>1.0.0</version>
+  </parent>
+
+  <groupId>org.test.parent</groupId>
+  <artifactId>so-3</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+
+  <packaging>jar</packaging>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <name>Resource Test</name>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-resources-plugin</artifactId>
+          <configuration>
+            <nonFilteredFileExtensions>
+              <nonFilteredFileExtension>pdf</nonFilteredFileExtension>
+            </nonFilteredFileExtensions>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-resources-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>copy-iso-part</id>
+            <goals><goal>copy-resources</goal></goals>
+            <phase>process-resources</phase>
+            <configuration>
+              <encoding>ISO-8859-1</encoding>
+              <resources>
+                <resource>
+                  <directory>src/main/iso-resources/</directory>
+                </resource>
+              </resources>
+              <outputDirectory>${project.build.outputDirectory}</outputDirectory>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>
