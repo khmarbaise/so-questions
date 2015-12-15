@@ -11,6 +11,7 @@
   <artifactId>web</artifactId>
   <packaging>war</packaging>
   <build>
+    <outputDirectory>${project.build.directory}/${project.build.finalName}/WEB-INF/classes</outputDirectory>
     <pluginManagement>
       <plugins>
         <plugin>

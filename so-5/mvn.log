@@ -1,0 +1,796 @@
+Apache Maven 3.3.1 (cab6659f9874fa96462afef40fcf6bc033d58c1c; 2015-03-13T21:10:27+01:00)
+Maven home: /usr/share/maven
+Java version: 1.7.0_21, vendor: Oracle Corporation
+Java home: /Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "mac os x", version: "10.8.5", arch: "x86_64", family: "mac"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Reading global settings from /usr/share/maven/conf/settings.xml
+[DEBUG] Reading user settings from /Users/kama/.m2/settings.xml
+[DEBUG] Reading global toolchains from /usr/share/maven/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /Users/kama/.m2/toolchains.xml
+[DEBUG] Using local repository at /Users/kama/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /Users/kama/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Using mirror nexus (http://localhost:8081/nexus/content/groups/public) for central (http://central).
+[DEBUG] Extension realms for project com.soebes.examples.so:web:war:1.0.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecyle mappings for packaging war from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.soebes.smpp:smpp:pom:1.2.0: (none)
+[DEBUG] Looking up lifecyle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Resolving plugin prefix war from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Using mirror nexus (http://localhost:8081/nexus/content/groups/public) for apache.snapshots (http://repository.apache.org/snapshots).
+[DEBUG] Using mirror nexus (http://localhost:8081/nexus/content/groups/public) for central (https://repo.maven.apache.org/maven2).
+[DEBUG] Using mirror nexus (http://localhost:8081/nexus/content/groups/public) for plexus-snapshots (https://oss.sonatype.org/content/repositories/plexus-snapshots).
+[DEBUG] Resolved plugin prefix war to org.apache.maven.plugins:maven-war-plugin from POM com.soebes.examples.so:web:war:1.0.0-SNAPSHOT
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.soebes.examples.so:web:war:1.0.0-SNAPSHOT
+[DEBUG] Tasks:   [clean, compile, war:war]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building web 1.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Resolving plugin prefix war from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Resolved plugin prefix war to org.apache.maven.plugins:maven-war-plugin from POM com.soebes.examples.so:web:war:1.0.0-SNAPSHOT
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.soebes.examples.so:web:1.0.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, runtime]
+[DEBUG] Repositories (dependencies): [nexus (http://localhost:8081/nexus/content/groups/public, default, releases+snapshots)]
+[DEBUG] Repositories (plugins)     : [nexus (http://localhost:8081/nexus/content/groups/public, default, releases+snapshots)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.6.1:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.build.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-enforcer-plugin:1.4:enforce (enforce-maven)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <fail default-value="true">${enforcer.fail}</fail>
+  <failFast default-value="false">${enforcer.failFast}</failFast>
+  <ignoreCache default-value="false">${enforcer.ignoreCache}</ignoreCache>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <project default-value="${project}"/>
+  <rules>
+    <requireSameVersions>
+      <plugins>
+        <plugin>org.apache.maven.plugins:maven-surefire-plugin</plugin>
+        <plugin>org.apache.maven.plugins:maven-failsafe-plugin</plugin>
+        <plugin>org.apache.maven.plugins:maven-surefire-report-plugin</plugin>
+      </plugins>
+    </requireSameVersions>
+    <requireMavenVersion>
+      <version>3.1.1</version>
+    </requireMavenVersion>
+  </rules>
+  <session default-value="${session}"/>
+  <skip default-value="false">${enforcer.skip}</skip>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.7:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.3:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <project default-value="${project}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-war-plugin:2.6:war (default-cli)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <archive>
+    <addMavenDescriptor>true</addMavenDescriptor>
+    <index>true</index>
+    <manifest>
+      <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+      <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
+    </manifest>
+    <manifestEntries>
+      <artifactId>web</artifactId>
+      <groupId>com.soebes.examples.so</groupId>
+      <version>1.0.0-SNAPSHOT</version>
+    </manifestEntries>
+  </archive>
+  <archiveClasses default-value="false">true</archiveClasses>
+  <attachClasses default-value="false"/>
+  <cacheFile default-value="${project.build.directory}/war/work/webapp-cache.xml"/>
+  <classesClassifier default-value="classes"/>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <containerConfigXML>${maven.war.containerConfigXML}</containerConfigXML>
+  <escapeString>${maven.war.escapeString}</escapeString>
+  <escapedBackslashesInFilePath default-value="false">${maven.war.escapedBackslashesInFilePath}</escapedBackslashesInFilePath>
+  <failOnMissingWebXml default-value="true">${failOnMissingWebXml}</failOnMissingWebXml>
+  <filteringDeploymentDescriptors default-value="false">${maven.war.filteringDeploymentDescriptors}</filteringDeploymentDescriptors>
+  <includeEmptyDirectories default-value="false"/>
+  <outputDirectory default-value="${project.build.directory}"/>
+  <primaryArtifact default-value="true">${primaryArtifact}</primaryArtifact>
+  <project default-value="${project}"/>
+  <recompressZippedFiles default-value="true"/>
+  <resourceEncoding default-value="${project.build.sourceEncoding}">${resourceEncoding}</resourceEncoding>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.war.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useCache default-value="false">${useCache}</useCache>
+  <useJvmChmod default-value="true">${maven.war.useJvmChmod}</useJvmChmod>
+  <warName default-value="${project.build.finalName}">${war.warName}</warName>
+  <warSourceDirectory default-value="${basedir}/src/main/webapp"/>
+  <warSourceIncludes default-value="**"/>
+  <webXml>${maven.war.webxml}</webXml>
+  <webappDirectory default-value="${project.build.directory}/${project.build.finalName}"/>
+  <workDirectory default-value="${project.build.directory}/war/work"/>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1, ConflictMarker.markTime=0, ConflictMarker.nodeCount=4, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=1, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=3, ConflictResolver.conflictItemCount=3, DefaultDependencyCollector.collectTime=13, DefaultDependencyCollector.transformTime=7}
+[DEBUG] com.soebes.examples.so:web:war:1.0.0-SNAPSHOT
+[DEBUG]    commons-fileupload:commons-fileupload:jar:1.1.1:compile
+[DEBUG]       commons-io:commons-io:jar:1.1:compile
+[DEBUG]    junit:junit:jar:4.8.1:test
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ web ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=4, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=4, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=0, ConflictResolver.conflictItemCount=4, DefaultDependencyCollector.collectTime=29, DefaultDependencyCollector.transformTime=0}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:2.6.1:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:0.7:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:1.1:runtime
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.6.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.6.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.6.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:2.6.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.7
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.1
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.6.1:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.6.1, parent: sun.misc.Launcher$AppClassLoader@3f610944]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.6.1:clean' with basic configurator -->
+[DEBUG]   (f) directory = /Users/kama/ws-git/so-questions/so-5/target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = /Users/kama/ws-git/so-questions/so-5/target/web-1.0.0-SNAPSHOT/WEB-INF/classes
+[DEBUG]   (f) reportDirectory = /Users/kama/ws-git/so-questions/so-5/target/web-1.0.0-SNAPSHOT/WEB-INF/classes
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = /Users/kama/ws-git/so-questions/so-5/target/test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting /Users/kama/ws-git/so-questions/so-5/target
+[INFO] Deleting file /Users/kama/ws-git/so-questions/so-5/target/web-1.0.0-SNAPSHOT.war
+[INFO] Deleting file /Users/kama/ws-git/so-questions/so-5/target/web-1.0.0-SNAPSHOT/WEB-INF/web.xml
+[INFO] Deleting file /Users/kama/ws-git/so-questions/so-5/target/web-1.0.0-SNAPSHOT/WEB-INF/lib/web-1.0.0-SNAPSHOT.jar
+[INFO] Deleting file /Users/kama/ws-git/so-questions/so-5/target/web-1.0.0-SNAPSHOT/WEB-INF/lib/commons-io-1.1.jar
+[INFO] Deleting file /Users/kama/ws-git/so-questions/so-5/target/web-1.0.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.1.1.jar
+[INFO] Deleting directory /Users/kama/ws-git/so-questions/so-5/target/web-1.0.0-SNAPSHOT/WEB-INF/lib
+[INFO] Deleting directory /Users/kama/ws-git/so-questions/so-5/target/web-1.0.0-SNAPSHOT/WEB-INF/classes
+[INFO] Deleting directory /Users/kama/ws-git/so-questions/so-5/target/web-1.0.0-SNAPSHOT/WEB-INF
+[INFO] Deleting directory /Users/kama/ws-git/so-questions/so-5/target/web-1.0.0-SNAPSHOT/META-INF
+[INFO] Deleting directory /Users/kama/ws-git/so-questions/so-5/target/web-1.0.0-SNAPSHOT
+[INFO] Deleting file /Users/kama/ws-git/so-questions/so-5/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+[INFO] Deleting file /Users/kama/ws-git/so-questions/so-5/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+[INFO] Deleting directory /Users/kama/ws-git/so-questions/so-5/target/maven-status/maven-compiler-plugin/compile/default-compile
+[INFO] Deleting directory /Users/kama/ws-git/so-questions/so-5/target/maven-status/maven-compiler-plugin/compile
+[INFO] Deleting directory /Users/kama/ws-git/so-questions/so-5/target/maven-status/maven-compiler-plugin
+[INFO] Deleting directory /Users/kama/ws-git/so-questions/so-5/target/maven-status
+[INFO] Deleting file /Users/kama/ws-git/so-questions/so-5/target/maven-archiver/pom.properties
+[INFO] Deleting directory /Users/kama/ws-git/so-questions/so-5/target/maven-archiver
+[INFO] Deleting directory /Users/kama/ws-git/so-questions/so-5/target/generated-sources/annotations
+[INFO] Deleting directory /Users/kama/ws-git/so-questions/so-5/target/generated-sources
+[INFO] Deleting file /Users/kama/ws-git/so-questions/so-5/target/classes/com/soebes/training/maven/simple/BitMask.class
+[INFO] Deleting directory /Users/kama/ws-git/so-questions/so-5/target/classes/com/soebes/training/maven/simple
+[INFO] Deleting directory /Users/kama/ws-git/so-questions/so-5/target/classes/com/soebes/training/maven
+[INFO] Deleting directory /Users/kama/ws-git/so-questions/so-5/target/classes/com/soebes/training
+[INFO] Deleting directory /Users/kama/ws-git/so-questions/so-5/target/classes/com/soebes
+[INFO] Deleting directory /Users/kama/ws-git/so-questions/so-5/target/classes/com
+[INFO] Deleting directory /Users/kama/ws-git/so-questions/so-5/target/classes
+[INFO] Deleting directory /Users/kama/ws-git/so-questions/so-5/target
+[DEBUG] Skipping non-existing directory /Users/kama/ws-git/so-questions/so-5/target/web-1.0.0-SNAPSHOT/WEB-INF/classes
+[DEBUG] Skipping non-existing directory /Users/kama/ws-git/so-questions/so-5/target/test-classes
+[DEBUG] Skipping non-existing directory /Users/kama/ws-git/so-questions/so-5/target/web-1.0.0-SNAPSHOT/WEB-INF/classes
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-maven) @ web ---
+[DEBUG] Using mirror nexus (http://localhost:8081/nexus/content/groups/public) for snapshots (http://snapshots.maven.codehaus.org/maven2).
+[DEBUG] Using mirror nexus (http://localhost:8081/nexus/content/groups/public) for codehaus.snapshots (http://snapshots.repository.codehaus.org).
+[DEBUG] Using mirror nexus (http://localhost:8081/nexus/content/groups/public) for apache.snapshots (http://people.apache.org/repo/m2-snapshot-repository).
+[DEBUG] Using mirror nexus (http://localhost:8081/nexus/content/groups/public) for central (http://repo1.maven.org/maven2).
+[DEBUG] Using mirror nexus (http://localhost:8081/nexus/content/groups/public) for apache-snapshots (http://people.apache.org/repo/m2-snapshot-repository).
+[DEBUG] Using mirror nexus (http://localhost:8081/nexus/content/groups/public) for plexus.snapshots (https://oss.sonatype.org/content/repositories/plexus-snapshots).
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1, ConflictMarker.markTime=0, ConflictMarker.nodeCount=137, ConflictIdSorter.graphTime=1, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=49, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=10, ConflictResolver.conflictItemCount=112, DefaultDependencyCollector.collectTime=245, DefaultDependencyCollector.transformTime=12}
+[DEBUG] org.apache.maven.plugins:maven-enforcer-plugin:jar:1.4:
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]          backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.2.1:compile
+[DEBUG]       org.slf4j:slf4j-jdk14:jar:1.5.6:runtime
+[DEBUG]          org.slf4j:slf4j-api:jar:1.5.6:runtime
+[DEBUG]       org.slf4j:jcl-over-slf4j:jar:1.5.6:runtime
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.2.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-logging-api:jar:1.1:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.2.1:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.2:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.2.1:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.20:compile
+[DEBUG]    commons-lang:commons-lang:jar:2.3:compile
+[DEBUG]    org.apache.maven.enforcer:enforcer-api:jar:1.4:compile
+[DEBUG]    org.apache.maven.enforcer:enforcer-rules:jar:1.4:compile
+[DEBUG]       org.apache.maven.shared:maven-common-artifact-filters:jar:1.4:compile
+[DEBUG]       org.beanshell:bsh:jar:2.0b4:compile
+[DEBUG]       org.apache.maven.shared:maven-dependency-tree:jar:2.2:compile
+[DEBUG]          org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]          org.eclipse.aether:aether-util:jar:0.9.0.M2:compile
+[DEBUG]       org.codehaus.plexus:plexus-i18n:jar:1.0-beta-6:compile
+[DEBUG]    org.apache.maven.plugin-testing:maven-plugin-testing-harness:jar:1.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-archiver:jar:2.2:compile
+[DEBUG]          org.codehaus.plexus:plexus-io:jar:2.0.4:compile
+[DEBUG]       junit:junit:jar:4.11:compile
+[DEBUG]          org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-enforcer-plugin:1.4
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-enforcer-plugin:1.4
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-enforcer-plugin:1.4
+[DEBUG]   Included: org.apache.maven.plugins:maven-enforcer-plugin:jar:1.4
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.11
+[DEBUG]   Included: org.slf4j:slf4j-jdk14:jar:1.5.6
+[DEBUG]   Included: org.slf4j:jcl-over-slf4j:jar:1.5.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.2.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-logging-api:jar:1.1
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.20
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.3
+[DEBUG]   Included: org.apache.maven.enforcer:enforcer-api:jar:1.4
+[DEBUG]   Included: org.apache.maven.enforcer:enforcer-rules:jar:1.4
+[DEBUG]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:1.4
+[DEBUG]   Included: org.beanshell:bsh:jar:2.0b4
+[DEBUG]   Included: org.apache.maven.shared:maven-dependency-tree:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.eclipse.aether:aether-util:jar:0.9.0.M2
+[DEBUG]   Included: org.codehaus.plexus:plexus-i18n:jar:1.0-beta-6
+[DEBUG]   Included: org.apache.maven.plugin-testing:maven-plugin-testing-harness:jar:1.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.0.4
+[DEBUG]   Included: junit:junit:jar:4.11
+[DEBUG]   Included: org.hamcrest:hamcrest-core:jar:1.3
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-enforcer-plugin:1.4:enforce from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-enforcer-plugin:1.4, parent: sun.misc.Launcher$AppClassLoader@3f610944]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-enforcer-plugin:1.4:enforce' with basic configurator -->
+[DEBUG]   (s) fail = true
+[DEBUG]   (s) failFast = false
+[DEBUG]   (f) ignoreCache = false
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-enforcer-plugin:1.4:enforce {execution: enforce-maven}
+[DEBUG]   (s) project = MavenProject: com.soebes.examples.so:web:1.0.0-SNAPSHOT @ /Users/kama/ws-git/so-questions/so-5/pom.xml
+[DEBUG]   (f) plugins = [org.apache.maven.plugins:maven-failsafe-plugin, org.apache.maven.plugins:maven-surefire-plugin, org.apache.maven.plugins:maven-surefire-report-plugin]
+[DEBUG]   (s) version = 3.1.1
+[DEBUG]   (s) rules = [org.apache.maven.plugins.enforcer.RequireSameVersions@504f4c0b, org.apache.maven.plugins.enforcer.RequireMavenVersion@6098f5e]
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@5da3676a
+[DEBUG]   (s) skip = false
+[DEBUG] -- end configuration --
+[DEBUG] Executing rule: org.apache.maven.plugins.enforcer.RequireSameVersions
+[DEBUG] Executing rule: org.apache.maven.plugins.enforcer.RequireMavenVersion
+[DEBUG] Rule org.apache.maven.plugins.enforcer.RequireMavenVersion is cacheable.
+[DEBUG] Detected Maven Version: 3.3.1
+[DEBUG] Detected Maven Version: 3.3.1 is allowed in the range 3.1.1.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ web ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1, ConflictMarker.markTime=0, ConflictMarker.nodeCount=143, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=36, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=5, ConflictResolver.conflictItemCount=88, DefaultDependencyCollector.collectTime=83, DefaultDependencyCollector.transformTime=6}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.7:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]          backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.2.1:compile
+[DEBUG]       org.slf4j:slf4j-jdk14:jar:1.5.6:runtime
+[DEBUG]          org.slf4j:slf4j-api:jar:1.5.6:runtime
+[DEBUG]       org.slf4j:jcl-over-slf4j:jar:1.5.6:runtime
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.2.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-logging-api:jar:1.1:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.2.1:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.2:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-monitor:jar:2.2.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.15:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.2:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:0.3:compile
+[DEBUG]          com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.19:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.7
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.7
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.7
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.7
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.slf4j:slf4j-jdk14:jar:1.5.6
+[DEBUG]   Included: org.slf4j:jcl-over-slf4j:jar:1.5.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.2.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-logging-api:jar:1.1
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.15
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.2
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.3
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.19
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.7:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.7, parent: sun.misc.Launcher$AppClassLoader@3f610944]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.7:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /Users/kama/ws-git/so-questions/so-5/target/web-1.0.0-SNAPSHOT/WEB-INF/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.soebes.examples.so:web:1.0.0-SNAPSHOT @ /Users/kama/ws-git/so-questions/so-5/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /Users/kama/ws-git/so-questions/so-5/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@5da3676a
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.SECURITYSESSIONID=186a6, appassembler-maven-plugin.version=1.10, taglist-maven-plugin.version=2.4, env.COLORFGBG=0;15, env.GEM_HOME=/Users/kama/.rvm/gems/ruby-1.9.3-p429, os.name=Mac OS X, sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/JObjC.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/classes, env.TMPDIR=/var/folders/22/mdbr7dbx7ln66nz3yhrhph_h0000gn/T/, env.Apple_Ubiquity_Message=/tmp/launch-LD5a7m/Apple_Ubiquity_Message, env.PWD=/Users/kama/ws-git/so-questions/so-5, user.country.format=DE, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.7.0_21-b12, env.MY_RUBY_HOME=/Users/kama/.rvm/rubies/ruby-1.9.3-p429, versions-maven-plugin.version=2.1, build-helper-maven-plugin.version=1.9.1, maven-invoker-plugin.version=2.0.0, env.Apple_PubSub_Socket_Render=/tmp/launch-jjGWMK/Render, project.build.sourceEncoding=UTF-8, env.rvm_version=1.20.13 (), maven-checkstyle-plugin.version=2.15, user.name=kama, maven.build.version=Apache Maven 3.3.1 (cab6659f9874fa96462afef40fcf6bc033d58c1c; 2015-03-13T21:10:27+01:00), env.USER=kama, env.SHELL=/bin/bash, env.__CF_USER_TEXT_ENCODING=0x1F5:0:0, maven-remote-resources-plugin.version=1.5, env.PATH=/usr/local/git/bin::/usr/share/gradle/bin:/usr/share/groovy/bin:/Users/kama/bin:/usr/share/gradle/bin:/usr/share/groovy/bin:/Users/kama/bin:/opt/local/bin:/opt/local/sbin:/Users/kama/.rvm/gems/ruby-1.9.3-p429/bin:/Users/kama/.rvm/gems/ruby-1.9.3-p429@global/bin:/Users/kama/.rvm/rubies/ruby-1.9.3-p429/bin:/Users/kama/.rvm/bin:/usr/share/maven/bin:/usr/local/mysql/bin:/opt/subversion/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/MacGPG2/bin, user.language=en, maven-deploy-plugin.version=2.8.2, env.rvm_prefix=/Users/kama, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib, classworlds.conf=/usr/share/maven/bin/m2.conf, maven-javadoc-plugin.version=2.10.3, maven-install-plugin.version=2.5.2, env.rvm_path=/Users/kama/.rvm, env.LC_CTYPE=UTF-8, env.RUBY_VERSION=ruby-1.9.3-p429, findbugs-maven-plugin.version=2.5.5, java.version=1.7.0_21, maven-changes-plugin.version=2.11, user.timezone=Europe/Berlin, sun.arch.data.model=64, exec-maven-plugin.version=1.4.0, jdepend-maven-plugin.version=2.0, java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/endorsed, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, env.ITERM_SESSION_ID=w0t3p0, env.rvm_bin_path=/Users/kama/.rvm/bin, file.encoding.pkg=sun.io, env.SHLVL=1, maven-shade-plugin.version=2.4, file.separator=/, java.specification.name=Java Platform API Specification, java.class.version=51.0, org.slf4j.simpleLogger.defaultLogLevel=debug, user.country=US, java.home=/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre, java.vm.info=mixed mode, maven-project-info-reports-plugin.version=2.8, env.JAVA_MAIN_CLASS_29484=org.codehaus.plexus.classworlds.launcher.Launcher, env.LOGNAME=kama, os.version=10.8.5, maven-gpg-plugin.version=1.6, maven-failsafe-plugin.version=2.18.1, maven-surefire-report-plugin.version=2.18.1, maven-war-plugin.version=2.6, maven.compiler.target=1.7, project.reporting.outputEncoding=UTF-8, maven-jar-plugin.version=2.6, path.separator=:, java.vm.version=23.21-b01, env.IRBRC=/Users/kama/.rvm/rubies/ruby-1.9.3-p429/.irbrc, env.JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, env.TERM=xterm-256color, templating-maven-plugin.version=1.0-alpha-3, maven-surefire-plugin.version=2.18.1, sun.io.unicode.encoding=UnicodeBig, awt.toolkit=sun.lwawt.macosx.LWCToolkit, maven-site-plugin.version=3.4, maven-source-plugin.version=2.4, env.GEM_PATH=/Users/kama/.rvm/gems/ruby-1.9.3-p429:/Users/kama/.rvm/gems/ruby-1.9.3-p429@global, user.home=/Users/kama, maven-compiler-plugin.version=3.3, env.OLDPWD=/Users/kama/ws-git/so-questions/so-5, java.specification.vendor=Oracle Corporation, maven-dependency-plugin.version=2.10, env.TERM_PROGRAM=iTerm.app, java.library.path=/Users/kama/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vendor.url=http://java.oracle.com/, env.MAVEN_CMD_LINE_ARGS= clean compile war:war -X, java.vm.vendor=Oracle Corporation, gopherProxySet=false, maven-resources-plugin.version=2.7, maven.home=/usr/share/maven, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean compile war:war -X, java.class.path=/usr/share/maven/boot/plexus-classworlds-2.5.2.jar, maven.version=3.3.1, java.vm.specification.name=Java Virtual Machine Specification, maven-ear-plugin.version=2.10.1, java.vm.specification.version=1.7, sun.cpu.endian=little, sun.os.patch.level=unknown, env.HOME=/Users/kama, java.io.tmpdir=/var/folders/22/mdbr7dbx7ln66nz3yhrhph_h0000gn/T/, maven-scm-publish-plugin.version=1.1, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.GIT_PS1_SHOWDIRTYSTATE=1, maven.multiModuleProjectDirectory=/Users/kama/ws-git/so-questions/so-5, env.SSH_AUTH_SOCK=/tmp/launch-kJNb58/Listeners, maven.compiler.source=1.7, env.COMMAND_MODE=unix2003, maven-jxr-plugin.version=2.5, os.arch=x86_64, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, buildnumber-maven-plugin.version=1.3, maven-antrun-plugin.version=1.8, java.ext.dirs=/Users/kama/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, env.PERL5LIB=/opt/subversion/lib/svn-perl/, user.dir=/Users/kama/ws-git/so-questions/so-5, maven-pmd-plugin.version=3.4, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, maven-release-plugin.version=2.5.2, license-maven-plugin.version=1.8, maven-assembly-plugin.version=2.5.5, env.ITERM_PROFILE=Default, cobertura-maven-plugin.version=2.7, maven-enforcer-plugin.version=1.4, maven-ejb-plugin.version=2.5.1, file.encoding=UTF-8, java.specification.version=1.7, env.MAVEN_PROJECTBASEDIR=/Users/kama/ws-git/so-questions/so-5, maven-clean-plugin.version=2.6.1}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory /Users/kama/ws-git/so-questions/so-5/src/main/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /Users/kama/ws-git/so-questions/so-5/src/main/resources
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ web ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=1, ConflictMarker.nodeCount=143, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=44, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=8, ConflictResolver.conflictItemCount=73, DefaultDependencyCollector.collectTime=44, DefaultDependencyCollector.transformTime=9}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.3:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.5.15:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]          org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.2.1:compile
+[DEBUG]       org.slf4j:slf4j-jdk14:jar:1.5.6:runtime
+[DEBUG]          org.slf4j:slf4j-api:jar:1.5.6:runtime
+[DEBUG]       org.slf4j:jcl-over-slf4j:jar:1.5.6:runtime
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]          backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.2.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:2.2.1:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:0.7:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.5:runtime
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.5.5:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.2:compile
+[DEBUG]       org.apache.xbean:xbean-reflect:jar:3.4:compile
+[DEBUG]          log4j:log4j:jar:1.2.12:compile
+[DEBUG]          commons-logging:commons-logging-api:jar:1.1:compile
+[DEBUG]       com.google.collections:google-collections:jar:1.0:compile
+[DEBUG]       junit:junit:jar:3.8.2:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.3
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.3
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.3
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.15
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.11
+[DEBUG]   Included: org.slf4j:slf4j-jdk14:jar:1.5.6
+[DEBUG]   Included: org.slf4j:jcl-over-slf4j:jar:1.5.6
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.7
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.5
+[DEBUG]   Included: org.apache.xbean:xbean-reflect:jar:3.4
+[DEBUG]   Included: log4j:log4j:jar:1.2.12
+[DEBUG]   Included: commons-logging:commons-logging-api:jar:1.1
+[DEBUG]   Included: com.google.collections:google-collections:jar:1.0
+[DEBUG]   Included: junit:junit:jar:3.8.2
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.3:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.3, parent: sun.misc.Launcher$AppClassLoader@3f610944]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.3:compile' with basic configurator -->
+[DEBUG]   (f) basedir = /Users/kama/ws-git/so-questions/so-5
+[DEBUG]   (f) buildDirectory = /Users/kama/ws-git/so-questions/so-5/target
+[DEBUG]   (f) classpathElements = [/Users/kama/ws-git/so-questions/so-5/target/web-1.0.0-SNAPSHOT/WEB-INF/classes, /Users/kama/.m2/repository/commons-fileupload/commons-fileupload/1.1.1/commons-fileupload-1.1.1.jar, /Users/kama/.m2/repository/commons-io/commons-io/1.1/commons-io-1.1.jar]
+[DEBUG]   (f) compileSourceRoots = [/Users/kama/ws-git/so-questions/so-5/src/main/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /Users/kama/ws-git/so-questions/so-5/target/generated-sources/annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.3:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /Users/kama/ws-git/so-questions/so-5/target/web-1.0.0-SNAPSHOT/WEB-INF/classes
+[DEBUG]   (f) project = MavenProject: com.soebes.examples.so:web:1.0.0-SNAPSHOT @ /Users/kama/ws-git/so-questions/so-5/pom.xml
+[DEBUG]   (f) projectArtifact = com.soebes.examples.so:web:war:1.0.0-SNAPSHOT
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@5da3676a
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.7
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.7
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [/Users/kama/ws-git/so-questions/so-5/src/main/java]
+[DEBUG] Classpath: [/Users/kama/ws-git/so-questions/so-5/target/web-1.0.0-SNAPSHOT/WEB-INF/classes
+ /Users/kama/.m2/repository/commons-fileupload/commons-fileupload/1.1.1/commons-fileupload-1.1.1.jar
+ /Users/kama/.m2/repository/commons-io/commons-io/1.1/commons-io-1.1.jar]
+[DEBUG] Output directory: /Users/kama/ws-git/so-questions/so-5/target/web-1.0.0-SNAPSHOT/WEB-INF/classes
+[DEBUG] Adding /Users/kama/ws-git/so-questions/so-5/target/generated-sources/annotations to compile source roots:
+  /Users/kama/ws-git/so-questions/so-5/src/main/java
+[DEBUG] New compile source roots:
+  /Users/kama/ws-git/so-questions/so-5/src/main/java
+  /Users/kama/ws-git/so-questions/so-5/target/generated-sources/annotations
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[DEBUG] Stale source detected: /Users/kama/ws-git/so-questions/so-5/src/main/java/com/soebes/training/maven/simple/BitMask.java
+[INFO] Changes detected - recompiling the module!
+[DEBUG] Classpath:
+[DEBUG]  /Users/kama/ws-git/so-questions/so-5/target/web-1.0.0-SNAPSHOT/WEB-INF/classes
+[DEBUG]  /Users/kama/.m2/repository/commons-fileupload/commons-fileupload/1.1.1/commons-fileupload-1.1.1.jar
+[DEBUG]  /Users/kama/.m2/repository/commons-io/commons-io/1.1/commons-io-1.1.jar
+[DEBUG] Source roots:
+[DEBUG]  /Users/kama/ws-git/so-questions/so-5/src/main/java
+[DEBUG]  /Users/kama/ws-git/so-questions/so-5/target/generated-sources/annotations
+[DEBUG] Command line options:
+[DEBUG] -d /Users/kama/ws-git/so-questions/so-5/target/web-1.0.0-SNAPSHOT/WEB-INF/classes -classpath /Users/kama/ws-git/so-questions/so-5/target/web-1.0.0-SNAPSHOT/WEB-INF/classes:/Users/kama/.m2/repository/commons-fileupload/commons-fileupload/1.1.1/commons-fileupload-1.1.1.jar:/Users/kama/.m2/repository/commons-io/commons-io/1.1/commons-io-1.1.jar: -sourcepath /Users/kama/ws-git/so-questions/so-5/src/main/java:/Users/kama/ws-git/so-questions/so-5/target/generated-sources/annotations: -s /Users/kama/ws-git/so-questions/so-5/target/generated-sources/annotations -g -nowarn -target 1.7 -source 1.7 -encoding UTF-8
+[DEBUG] incrementalBuildHelper#beforeRebuildExecution
+[INFO] Compiling 1 source file to /Users/kama/ws-git/so-questions/so-5/target/web-1.0.0-SNAPSHOT/WEB-INF/classes
+[DEBUG] incrementalBuildHelper#afterRebuildExecution
+[INFO] 
+[INFO] --- maven-war-plugin:2.6:war (default-cli) @ web ---
+[DEBUG] Using mirror nexus (http://localhost:8081/nexus/content/groups/public) for codehaus-snapshots (http://nexus.codehaus.org/snapshots/).
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=1, ConflictMarker.nodeCount=120, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=45, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=4, ConflictResolver.conflictItemCount=108, DefaultDependencyCollector.collectTime=78, DefaultDependencyCollector.transformTime=5}
+[DEBUG] org.apache.maven.plugins:maven-war-plugin:jar:2.6:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]          backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.2.1:compile
+[DEBUG]       org.slf4j:slf4j-jdk14:jar:1.5.6:runtime
+[DEBUG]          org.slf4j:slf4j-api:jar:1.5.6:runtime
+[DEBUG]       org.slf4j:jcl-over-slf4j:jar:1.5.6:runtime
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.2.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-logging-api:jar:1.1:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.2.1:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.2:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.2.1:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-archiver:jar:2.6:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:0.7:compile
+[DEBUG]          com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-io:jar:2.4.1:compile
+[DEBUG]    commons-io:commons-io:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:2.9:compile
+[DEBUG]       org.apache.commons:commons-compress:jar:1.9:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.21:compile
+[DEBUG]    com.thoughtworks.xstream:xstream:jar:1.4.4:compile
+[DEBUG]       xmlpull:xmlpull:jar:1.1.3.1:compile
+[DEBUG]       xpp3:xpp3_min:jar:1.1.4c:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.20:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.3:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.apache.maven.shared:maven-mapping:jar:1.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-war-plugin:2.6
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-war-plugin:2.6
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-war-plugin:2.6
+[DEBUG]   Included: org.apache.maven.plugins:maven-war-plugin:jar:2.6
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.slf4j:slf4j-jdk14:jar:1.5.6
+[DEBUG]   Included: org.slf4j:jcl-over-slf4j:jar:1.5.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.2.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-logging-api:jar:1.1
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:2.6
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.7
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.4.1
+[DEBUG]   Included: commons-io:commons-io:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.9
+[DEBUG]   Included: org.apache.commons:commons-compress:jar:1.9
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.21
+[DEBUG]   Included: com.thoughtworks.xstream:xstream:jar:1.4.4
+[DEBUG]   Included: xmlpull:xmlpull:jar:1.1.3.1
+[DEBUG]   Included: xpp3:xpp3_min:jar:1.1.4c
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.20
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.apache.maven.shared:maven-mapping:jar:1.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-war-plugin:2.6:war from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-war-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@3f610944]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-war-plugin:2.6:war' with basic configurator -->
+[DEBUG]   (s) addMavenDescriptor = true
+[DEBUG]   (s) index = true
+[DEBUG]   (s) addDefaultImplementationEntries = true
+[DEBUG]   (s) addDefaultSpecificationEntries = true
+[DEBUG]   (s) manifest = org.apache.maven.archiver.ManifestConfiguration@147976eb
+[DEBUG]   (s) manifestEntries = {artifactId=web, groupId=com.soebes.examples.so, version=1.0.0-SNAPSHOT}
+[DEBUG]   (f) archive = org.apache.maven.archiver.MavenArchiveConfiguration@326e48cd
+[DEBUG]   (s) archiveClasses = true
+[DEBUG]   (s) attachClasses = false
+[DEBUG]   (s) cacheFile = /Users/kama/ws-git/so-questions/so-5/target/war/work/webapp-cache.xml
+[DEBUG]   (s) classesClassifier = classes
+[DEBUG]   (s) classesDirectory = /Users/kama/ws-git/so-questions/so-5/target/web-1.0.0-SNAPSHOT/WEB-INF/classes
+[DEBUG]   (f) escapedBackslashesInFilePath = false
+[DEBUG]   (s) failOnMissingWebXml = true
+[DEBUG]   (f) filteringDeploymentDescriptors = false
+[DEBUG]   (f) includeEmptyDirectories = false
+[DEBUG]   (s) outputDirectory = /Users/kama/ws-git/so-questions/so-5/target
+[DEBUG]   (s) primaryArtifact = true
+[DEBUG]   (s) project = MavenProject: com.soebes.examples.so:web:1.0.0-SNAPSHOT @ /Users/kama/ws-git/so-questions/so-5/pom.xml
+[DEBUG]   (f) recompressZippedFiles = true
+[DEBUG]   (f) resourceEncoding = UTF-8
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@5da3676a
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (s) useCache = false
+[DEBUG]   (f) useJvmChmod = true
+[DEBUG]   (s) warName = web-1.0.0-SNAPSHOT
+[DEBUG]   (s) warSourceDirectory = /Users/kama/ws-git/so-questions/so-5/src/main/webapp
+[DEBUG]   (s) warSourceIncludes = **
+[DEBUG]   (s) webappDirectory = /Users/kama/ws-git/so-questions/so-5/target/web-1.0.0-SNAPSHOT
+[DEBUG]   (s) workDirectory = /Users/kama/ws-git/so-questions/so-5/target/war/work
+[DEBUG] -- end configuration --
+[INFO] Packaging webapp
+[INFO] Assembling webapp [web] in [/Users/kama/ws-git/so-questions/so-5/target/web-1.0.0-SNAPSHOT]
+[DEBUG] properties used {java.vendor=Oracle Corporation, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.SECURITYSESSIONID=186a6, appassembler-maven-plugin.version=1.10, taglist-maven-plugin.version=2.4, env.COLORFGBG=0;15, env.GEM_HOME=/Users/kama/.rvm/gems/ruby-1.9.3-p429, os.name=Mac OS X, sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/JObjC.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/classes, env.TMPDIR=/var/folders/22/mdbr7dbx7ln66nz3yhrhph_h0000gn/T/, env.Apple_Ubiquity_Message=/tmp/launch-LD5a7m/Apple_Ubiquity_Message, env.PWD=/Users/kama/ws-git/so-questions/so-5, user.country.format=DE, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.7.0_21-b12, env.MY_RUBY_HOME=/Users/kama/.rvm/rubies/ruby-1.9.3-p429, versions-maven-plugin.version=2.1, build-helper-maven-plugin.version=1.9.1, maven-invoker-plugin.version=2.0.0, env.Apple_PubSub_Socket_Render=/tmp/launch-jjGWMK/Render, project.build.sourceEncoding=UTF-8, env.rvm_version=1.20.13 (), maven-checkstyle-plugin.version=2.15, user.name=kama, maven.build.version=Apache Maven 3.3.1 (cab6659f9874fa96462afef40fcf6bc033d58c1c; 2015-03-13T21:10:27+01:00), env.USER=kama, env.SHELL=/bin/bash, env.__CF_USER_TEXT_ENCODING=0x1F5:0:0, maven-remote-resources-plugin.version=1.5, env.PATH=/usr/local/git/bin::/usr/share/gradle/bin:/usr/share/groovy/bin:/Users/kama/bin:/usr/share/gradle/bin:/usr/share/groovy/bin:/Users/kama/bin:/opt/local/bin:/opt/local/sbin:/Users/kama/.rvm/gems/ruby-1.9.3-p429/bin:/Users/kama/.rvm/gems/ruby-1.9.3-p429@global/bin:/Users/kama/.rvm/rubies/ruby-1.9.3-p429/bin:/Users/kama/.rvm/bin:/usr/share/maven/bin:/usr/local/mysql/bin:/opt/subversion/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/MacGPG2/bin, user.language=en, maven-deploy-plugin.version=2.8.2, env.rvm_prefix=/Users/kama, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib, classworlds.conf=/usr/share/maven/bin/m2.conf, maven-javadoc-plugin.version=2.10.3, maven-install-plugin.version=2.5.2, env.rvm_path=/Users/kama/.rvm, env.LC_CTYPE=UTF-8, env.RUBY_VERSION=ruby-1.9.3-p429, findbugs-maven-plugin.version=2.5.5, java.version=1.7.0_21, maven-changes-plugin.version=2.11, user.timezone=Europe/Berlin, sun.arch.data.model=64, exec-maven-plugin.version=1.4.0, jdepend-maven-plugin.version=2.0, java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/endorsed, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, env.ITERM_SESSION_ID=w0t3p0, env.rvm_bin_path=/Users/kama/.rvm/bin, file.encoding.pkg=sun.io, env.SHLVL=1, maven-shade-plugin.version=2.4, file.separator=/, java.specification.name=Java Platform API Specification, java.class.version=51.0, org.slf4j.simpleLogger.defaultLogLevel=debug, user.country=US, java.home=/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre, java.vm.info=mixed mode, maven-project-info-reports-plugin.version=2.8, env.JAVA_MAIN_CLASS_29484=org.codehaus.plexus.classworlds.launcher.Launcher, env.LOGNAME=kama, os.version=10.8.5, maven-gpg-plugin.version=1.6, maven-failsafe-plugin.version=2.18.1, maven-surefire-report-plugin.version=2.18.1, maven-war-plugin.version=2.6, maven.compiler.target=1.7, project.reporting.outputEncoding=UTF-8, maven-jar-plugin.version=2.6, path.separator=:, java.vm.version=23.21-b01, env.IRBRC=/Users/kama/.rvm/rubies/ruby-1.9.3-p429/.irbrc, env.JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, env.TERM=xterm-256color, templating-maven-plugin.version=1.0-alpha-3, maven-surefire-plugin.version=2.18.1, sun.io.unicode.encoding=UnicodeBig, awt.toolkit=sun.lwawt.macosx.LWCToolkit, maven-site-plugin.version=3.4, maven-source-plugin.version=2.4, env.GEM_PATH=/Users/kama/.rvm/gems/ruby-1.9.3-p429:/Users/kama/.rvm/gems/ruby-1.9.3-p429@global, user.home=/Users/kama, maven-compiler-plugin.version=3.3, env.OLDPWD=/Users/kama/ws-git/so-questions/so-5, java.specification.vendor=Oracle Corporation, maven-dependency-plugin.version=2.10, env.TERM_PROGRAM=iTerm.app, java.library.path=/Users/kama/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vendor.url=http://java.oracle.com/, env.MAVEN_CMD_LINE_ARGS= clean compile war:war -X, java.vm.vendor=Oracle Corporation, gopherProxySet=false, maven-resources-plugin.version=2.7, maven.home=/usr/share/maven, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean compile war:war -X, java.class.path=/usr/share/maven/boot/plexus-classworlds-2.5.2.jar, maven.version=3.3.1, java.vm.specification.name=Java Virtual Machine Specification, maven-ear-plugin.version=2.10.1, java.vm.specification.version=1.7, sun.cpu.endian=little, sun.os.patch.level=unknown, env.HOME=/Users/kama, java.io.tmpdir=/var/folders/22/mdbr7dbx7ln66nz3yhrhph_h0000gn/T/, maven-scm-publish-plugin.version=1.1, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.GIT_PS1_SHOWDIRTYSTATE=1, maven.multiModuleProjectDirectory=/Users/kama/ws-git/so-questions/so-5, env.SSH_AUTH_SOCK=/tmp/launch-kJNb58/Listeners, maven.compiler.source=1.7, env.COMMAND_MODE=unix2003, maven-jxr-plugin.version=2.5, os.arch=x86_64, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, buildnumber-maven-plugin.version=1.3, maven-antrun-plugin.version=1.8, java.ext.dirs=/Users/kama/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, env.PERL5LIB=/opt/subversion/lib/svn-perl/, user.dir=/Users/kama/ws-git/so-questions/so-5, maven-pmd-plugin.version=3.4, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, maven-release-plugin.version=2.5.2, license-maven-plugin.version=1.8, maven-assembly-plugin.version=2.5.5, env.ITERM_PROFILE=Default, cobertura-maven-plugin.version=2.7, maven-enforcer-plugin.version=1.4, maven-ejb-plugin.version=2.5.1, file.encoding=UTF-8, java.specification.version=1.7, env.MAVEN_PROJECTBASEDIR=/Users/kama/ws-git/so-questions/so-5, maven-clean-plugin.version=2.6.1}
+[INFO] Processing war project
+[INFO] Copying webapp resources [/Users/kama/ws-git/so-questions/so-5/src/main/webapp]
+[DEBUG]  + WEB-INF/web.xml has been copied.
+[DEBUG] Dump of the current build pathSet content -->
+[DEBUG] WEB-INF/web.xml
+[DEBUG] -- end of dump --
+[DEBUG] Processing: commons-fileupload-1.1.1.jar
+[DEBUG]  + WEB-INF/lib/commons-fileupload-1.1.1.jar has been copied.
+[DEBUG] Processing: commons-io-1.1.jar
+[DEBUG]  + WEB-INF/lib/commons-io-1.1.jar has been copied.
+[INFO] Webapp assembled in [31 msecs]
+[DEBUG] Excluding [] from the generated webapp archive.
+[DEBUG] Including [**] in the generated webapp archive.
+[INFO] Building war: /Users/kama/ws-git/so-questions/so-5/target/web-1.0.0-SNAPSHOT.war
+[DEBUG] adding directory META-INF/
+[DEBUG] adding entry META-INF/MANIFEST.MF
+[DEBUG] adding directory WEB-INF/
+[DEBUG] adding directory WEB-INF/classes/
+[DEBUG] adding directory WEB-INF/classes/com/
+[DEBUG] adding directory WEB-INF/classes/com/soebes/
+[DEBUG] adding directory WEB-INF/classes/com/soebes/training/
+[DEBUG] adding directory WEB-INF/classes/com/soebes/training/maven/
+[DEBUG] adding directory WEB-INF/classes/com/soebes/training/maven/simple/
+[DEBUG] adding directory WEB-INF/lib/
+[DEBUG] adding entry WEB-INF/classes/com/soebes/training/maven/simple/BitMask.class
+[DEBUG] adding entry WEB-INF/lib/commons-fileupload-1.1.1.jar
+[DEBUG] adding entry WEB-INF/lib/commons-io-1.1.jar
+[DEBUG] adding entry WEB-INF/web.xml
+[DEBUG] WEB-INF/web.xml already added, skipping
+[DEBUG] adding entry META-INF/maven/com.soebes.examples.so/web/pom.xml
+[DEBUG] adding entry META-INF/maven/com.soebes.examples.so/web/pom.properties
+[DEBUG] adding entry META-INF/INDEX.LIST
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.810 s
+[INFO] Finished at: 2015-09-06T19:50:07+02:00
+[INFO] Final Memory: 19M/213M
+[INFO] ------------------------------------------------------------------------
